@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 29e95e75682425047ae38fb90cc079dd
+timeCreated: 1474396495
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Boton: {fileID: 1000012067114518, guid: ca9a1f65552a72045a149345f11fe489, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
