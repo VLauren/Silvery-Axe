@@ -11,9 +11,9 @@ public class CuboHielo : MonoBehaviour
         StartCoroutine(Aparecer());
 	}
 
-    const float delay = 1f;
-    const float tiempoSubir = 1f;
-    const float distanciaSubir = 1.25f;
+    const float delay = 1f; // retraso para crear el cubo
+    const float tiempoSubir = 1f; // duracion de la animacion de subir
+    const float distanciaSubir = 1.25f; // distancia recorrida
 
     float contador = 0;
 

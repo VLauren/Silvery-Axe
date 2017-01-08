@@ -11,12 +11,14 @@ public class LanzaArma : Arma
 
     public LanzaArma()
     {
+        // referencia al prefab del proyectil
         if (prefab == null)
             prefab = Resources.Load<ProyectilTP>("Prefabs/ProyectilTP");
     }
 
     public override void Usar()
     {
+        // si estoy en el suelo inicio la carga
         if (Jugador.instancia.cc.isGrounded)
         {
             cargando = true;
@@ -30,8 +32,10 @@ public class LanzaArma : Arma
     const int capaJug = 8;
     int mascara = ~(1 << capaJug);
 
+    // al soltar el boton
     public override void Soltar()
     {
+        // si estaba cargando
         if (cargando)
         {
             cargando = false;
@@ -49,15 +53,22 @@ public class LanzaArma : Arma
 
                 Vector3 direccion = hit.point - posicion;
 
+                // creo la lanza y la envío en la direccion calculada
                 lanzado = GameObject.Instantiate(prefab, posicion, Quaternion.identity) as ProyectilTP;
                 lanzado.Lanzar(direccion, Time.time - tiempoCarga);
             }
+            
+            // vuelvo a la animacion de reposo
             Jugador.AnimIdle();
+
+            // TODO animacion de lanzar
         }
     }
 
+    // con el boton segundario
     public override void Usar2()
     {
+        // teletransporte a la lanza
         Teleportar();
     }
 

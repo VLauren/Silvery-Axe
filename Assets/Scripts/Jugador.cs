@@ -8,12 +8,13 @@ public class Jugador : MonoBehaviour
 
     public static Jugador instancia { get; private set; }
 
+    // referencias
     public Transform modelo { get; private set; }
     public CharacterController cc { get; private set; }
     private Animator anim;
     private Arma arma;
 
-    private bool bloqueoAnimacion = false;
+    private bool bloqueoAnimacion = false; // indica si se está en una animacion que bloquee el movimiento
 
     public float velocidad;
 
@@ -29,11 +30,6 @@ public class Jugador : MonoBehaviour
         // suscripciones
         NotificationCenter.DefaultCenter().AddObserver(this, "LanzaRecogida");
         NotificationCenter.DefaultCenter().AddObserver(this, "EspadaRecogida");
-
-        // esconder el cursor
-        // TODO que esto esté en el gestor y se haga de forma contínua
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     public void Update()
@@ -81,9 +77,7 @@ public class Jugador : MonoBehaviour
     }
 
     private Quaternion rotObjetivo;
-    private Vector3 direccionAnterior = Vector3.zero;
-    private Vector3 movAnterior = Vector3.zero;
-    
+
     // convierte vector de dirección en movimiento del jugador
     public void Mover(Vector3 direccion)
     {
@@ -96,22 +90,14 @@ public class Jugador : MonoBehaviour
                 if (modelo)
                     modelo.rotation = Quaternion.RotateTowards(modelo.rotation, rotObjetivo, Time.deltaTime * 360);
             }
-
-            // TODO repasar esto
+            
+            // tomo la rotacion en el eje y de la cámara
             float rCam = Camera.main.transform.eulerAngles.y;
-            //if (direccion != direccionAnterior)
-            //{
-                direccionAnterior = direccion;
-                direccion = Quaternion.Euler(0, rCam, 0) * direccion;
-                movAnterior = direccion;
-            //}
-            //else
-            //    direccion = movAnterior;
-        }
-        else
-            direccionAnterior = direccion;
 
-        // variable del Animator
+            // el movimiento es relativo a la direccion de la cámara
+            direccion = Quaternion.Euler(0, rCam, 0) * direccion;
+        }
+
         if (anim)
             anim.SetFloat(NOMBRE_ANIM_VELOCIDAD, direccion.magnitude);
 
@@ -156,20 +142,26 @@ public class Jugador : MonoBehaviour
 
     private IEnumerator AnimacionEspada()
     {
+        // muestro la espada que apunta hacia abajo
         modeloEspadaB.SetActive(true);
         modeloEspada.SetActive(false);
+        
         instancia.anim.SetTrigger("Espada");
         bloqueoAnimacion = true;
 
+        // espero el tiempo de animacion
         yield return new WaitForSeconds(tAnimEspada);
 
+        // vuelvo a mostrar la espada normal
         modeloEspadaB.SetActive(false);
         modeloEspada.SetActive(true);
+
         instancia.anim.SetTrigger("FinEspada");
         bloqueoAnimacion = false;
     }
 
     //==============================
+    // Armas
 
     private GameObject modeloEspada;
     private GameObject modeloEspadaB;
@@ -184,9 +176,9 @@ public class Jugador : MonoBehaviour
         modeloEspada.SetActive(false);
         modeloEspadaB.SetActive(false);
         modeloLanza.SetActive(false);
-
     }
     
+    // métodos para mostrar los modelos correctos al recoger un arma
     void LanzaRecogida()
     {
         arma = new LanzaArma();

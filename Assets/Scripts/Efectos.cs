@@ -9,10 +9,11 @@ public class Efectos : MonoBehaviour
         CogerArma
     }
 
-    public static readonly string[] nombrePrefabs = {
+    public static readonly string[] nombrePrefabs = 
+    {
         "EfectoCuboHielo",
         "EfectoCogerArma"
-        };
+    };
 
     public static void EfectoCuboHielo(Vector3 posicion)
     {

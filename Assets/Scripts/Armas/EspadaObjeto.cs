@@ -7,6 +7,5 @@ public class EspadaObjeto : ArmaObjeto
     {
         NotificationCenter.DefaultCenter().PostNotification(this, "EspadaRecogida");
         base.RecogerArma();
-        
     }
 }
