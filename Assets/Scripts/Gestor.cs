@@ -3,10 +3,15 @@ using System.Collections;
 
 public class Gestor : MonoBehaviour
 {
+    public bool BloquearRaton = true;
+
     public void Update()
     {
-        // esconder el cursor
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (BloquearRaton)
+        {
+            // esconder el cursor
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 }
