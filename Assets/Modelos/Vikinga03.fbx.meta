@@ -255,6 +255,7 @@ ModelImporter:
     7400004: Trhow
     7400006: Sword
     7400008: Falling
+    7400010: Charge
     9500000: //RootNode
     13700000: Body
   materials:
@@ -832,7 +833,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Trhow
       takeName: Vikinga01
-      firstFrame: 40
+      firstFrame: 49
       lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
@@ -1366,6 +1367,272 @@ ModelImporter:
       takeName: Vikinga01
       firstFrame: 105
       lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Vikinga
+        weight: 1
+      - path: Vikinga/Body
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_ChestEndEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_ChestOriginEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_HeadEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_LeftUpLeg
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_LeftUpLeg/Vikingarig_Ctrl_LeftLeg
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_LeftUpLeg/Vikingarig_Ctrl_LeftLeg/Vikingarig_Ctrl_LeftFoot
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_LeftUpLeg/Vikingarig_Ctrl_LeftLeg/Vikingarig_Ctrl_LeftFoot/Vikingarig_Ctrl_LeftToeBase
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_RightUpLeg
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_RightUpLeg/Vikingarig_Ctrl_RightLeg
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_RightUpLeg/Vikingarig_Ctrl_RightLeg/Vikingarig_Ctrl_RightFoot
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_RightUpLeg/Vikingarig_Ctrl_RightLeg/Vikingarig_Ctrl_RightFoot/Vikingarig_Ctrl_RightToeBase
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandIndex1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandIndex1/Vikingarig_Ctrl_LeftHandIndex2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandMiddle1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandMiddle1/Vikingarig_Ctrl_LeftHandMiddle2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandPinky1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandPinky1/Vikingarig_Ctrl_LeftHandPinky2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandRing1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandRing1/Vikingarig_Ctrl_LeftHandRing2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandThumb1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_LeftShoulder/Vikingarig_Ctrl_LeftArm/Vikingarig_Ctrl_LeftForeArm/Vikingarig_Ctrl_LeftHand/Vikingarig_Ctrl_LeftHandThumb1/Vikingarig_Ctrl_LeftHandThumb2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_Neck
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_Neck/Vikingarig_Ctrl_Head
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandIndex1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandIndex1/Vikingarig_Ctrl_RightHandIndex2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandMiddle1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandMiddle1/Vikingarig_Ctrl_RightHandMiddle2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandPinky1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandPinky1/Vikingarig_Ctrl_RightHandPinky2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandRing1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandRing1/Vikingarig_Ctrl_RightHandRing2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandThumb1
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_Hips/Vikingarig_Ctrl_Spine/Vikingarig_Ctrl_Spine1/Vikingarig_Ctrl_Spine2/Vikingarig_Ctrl_RightShoulder/Vikingarig_Ctrl_RightArm/Vikingarig_Ctrl_RightForeArm/Vikingarig_Ctrl_RightHand/Vikingarig_Ctrl_RightHandThumb1/Vikingarig_Ctrl_RightHandThumb2
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_HipsEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftAnkleEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftElbowEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftFootEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHandIndexEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHandMiddleEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHandPinkyEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHandRingEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHandThumbEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftHipEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftKneeEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftShoulderEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_LeftWristEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightAnkleEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightElbowEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightFootEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHandIndexEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHandMiddleEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHandPinkyEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHandRingEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHandThumbEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightHipEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightKneeEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightShoulderEffector
+        weight: 1
+      - path: Vikingarig_Ctrl_Reference/Vikingarig_Ctrl_RightWristEffector
+        weight: 1
+      - path: Vikingarig_Reference
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_LeftUpLeg
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_LeftUpLeg/Vikingarig_LeftLeg
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_LeftUpLeg/Vikingarig_LeftLeg/Vikingarig_LeftFoot
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_LeftUpLeg/Vikingarig_LeftLeg/Vikingarig_LeftFoot/Vikingarig_LeftToeBase
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_RightUpLeg
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_RightUpLeg/Vikingarig_RightLeg
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_RightUpLeg/Vikingarig_RightLeg/Vikingarig_RightFoot
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_RightUpLeg/Vikingarig_RightLeg/Vikingarig_RightFoot/Vikingarig_RightToeBase
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Cap
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandIndex1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandIndex1/Vikingarig_LeftHandIndex2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandMiddle1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandMiddle1/Vikingarig_LeftHandMiddle2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandPinky1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandPinky1/Vikingarig_LeftHandPinky2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandRing1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandRing1/Vikingarig_LeftHandRing2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandThumb1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_LeftShoulder/Vikingarig_LeftArm/Vikingarig_LeftForeArm/Vikingarig_LeftHand/Vikingarig_LeftHandThumb1/Vikingarig_LeftHandThumb2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_Neck
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_Neck/Hair
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_Neck/Vikingarig_Head
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandIndex1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandIndex1/Vikingarig_RightHandIndex2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandMiddle1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandMiddle1/Vikingarig_RightHandMiddle2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandPinky1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandPinky1/Vikingarig_RightHandPinky2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandRing1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandRing1/Vikingarig_RightHandRing2
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandThumb1
+        weight: 1
+      - path: Vikingarig_Reference/Vikingarig_Hips/Vikingarig_Spine/Vikingarig_Spine1/Vikingarig_Spine2/Vikingarig_RightShoulder/Vikingarig_RightArm/Vikingarig_RightForeArm/Vikingarig_RightHand/Vikingarig_RightHandThumb1/Vikingarig_RightHandThumb2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Charge
+      takeName: Vikinga01
+      firstFrame: 40
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

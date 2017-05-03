@@ -120,7 +120,7 @@ public class Jugador : MonoBehaviour
         instancia.cargando = true;
         if (instancia.anim)
         {
-            instancia.anim.SetBool("Cargando", true);
+            instancia.anim.SetTrigger("Cargar");
         }
     }
 
@@ -129,7 +129,7 @@ public class Jugador : MonoBehaviour
         instancia.cargando = false;
         if (instancia.anim)
         {
-            instancia.anim.SetBool("Cargando", false);
+            instancia.anim.SetTrigger("Lanzar");
         }
     }
 
